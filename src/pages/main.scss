@@ -1,0 +1,28 @@
+.tab-button-wrapper {
+  width: 128px;
+  height: 41px;
+  left: calc(50% - 128px / 2 + 624px);
+  top: 13.5%;
+  bottom: 82.46%;
+  background: rgba(106, 106, 106, 0.1);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 10px;
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 35px;
+    cursor: pointer;
+  }
+  .active {
+    background: #ffffff;
+    box-shadow: 0px 1px 2px rgba(97, 97, 97, 0.2),
+      0px 2px 4px rgba(97, 97, 97, 0.2);
+    border-radius: 6px;
+  }
+}

@@ -1,0 +1,32 @@
+.icon-sidebar {
+  width: 90px;
+  height: 100vh;
+  border-right: 1px solid #efecff;
+  background-color: #000000;
+  .red-square {
+    width: 100%;
+    height: 90px;
+    background-color: #ed1b2e;
+    .red-circle {
+      width: 44px;
+      height: 41px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.5);
+    }
+  }
+
+  .navbar-nav {
+    // .active {
+    //   background: #5a29bb;
+    //   padding: 10px;
+    //   box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+    //   border-radius: 6px;
+    //   transform: matrix(-1, 0, 0, 1, 0, 0);
+    // }
+  }
+  .profile-img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+  }
+}
